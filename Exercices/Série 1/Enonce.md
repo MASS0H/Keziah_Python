@@ -1,42 +1,26 @@
-# Série 1 — Les bases de Python
 
-Cette série reprend les notions de la première séance : affichage avec `print()`, variables, nombres entiers et décimaux, calculs, saisie avec `input()` et assemblage de textes avec `+`.
-
-## Comment travailler
-
-1. Ouvre le fichier `reponses.py` dans Visual Studio Code.
-2. Écris tes réponses sous le titre de chaque exercice, dans l'ordre.
-3. Enregistre ton fichier et exécute-le après chaque exercice.
-4. Compare ce qui s'affiche avec la consigne. Si nécessaire, corrige ton programme puis relance-le.
-
-Les lignes qui commencent par `#` sont des commentaires : elles servent à écrire des explications et ne sont pas exécutées.
-
-Pour les calculs, utilise les nombres indiqués dans les consignes et écris-les directement dans tes variables. Les saisies avec `input()` serviront à recueillir du texte.
 
 ## Exercice 1 — Mes premiers affichages
 
 Écris un programme qui affiche exactement ces trois lignes :
 
-```text
+
 Bonjour !
 Je découvre Python.
 C'est ma première série d'exercices.
-```
 
-Utilise une instruction `print()` pour chaque ligne.
 
 ## Exercice 2 — Prévoir puis vérifier
 
-Sans exécuter le code, écris en commentaire le résultat que tu prévois pour chaque ligne :
+Sans exécuter le code, écris  le résultat que tu prévois pour chaque ligne :
 
-```python
 print(12 + 8)
 print(15 - 6)
 print(4 * 7)
 print(18 / 3)
-```
+print(18 // 3)
+print(18 % 3)
 
-Recopie ensuite ces instructions, exécute-les et compare les résultats avec tes prévisions. Observe notamment la façon dont Python affiche le résultat de la division.
 
 ## Exercice 3 — Stocker et réutiliser des nombres
 
@@ -48,13 +32,11 @@ Recopie ensuite ces instructions, exécute-les et compare les résultats avec te
 
 ## Exercice 4 — Un prix après réduction
 
-Un cahier coûte **19,50**. Le magasin applique une réduction fixe de **2,25**.
+Un cahier coûte 19,50. Le magasin applique une réduction fixe de 2,25
 
 1. Stocke ces deux nombres décimaux dans les variables `prix` et `reduction`.
 2. Calcule le montant à payer dans une variable `prix_final`.
 3. Affiche le texte `Prix à payer :`, puis le résultat sur la ligne suivante.
-
-Dans le code Python, écris les nombres décimaux avec un point : par exemple, `19.50`.
 
 ## Exercice 5 — La boîte à calculs
 
@@ -70,9 +52,6 @@ En utilisant ces variables, calcule et stocke séparément :
 6. Le reste de cette division avec `%`.
 7. `a` élevé à la puissance `b` avec `**`.
 
-Choisis un nom de variable pour chaque résultat, puis affiche les sept résultats dans cet ordre, chacun sur sa propre ligne.
-
-Ajoute un commentaire pour expliquer, avec tes mots, la différence entre `/`, `//` et `%`.
 
 ## Exercice 6 — Préparer des sachets
 
@@ -104,7 +83,8 @@ Tu habites à Tanger.
 
 Relance ton programme avec d'autres réponses pour vérifier que les phrases s'adaptent.
 
-## Exercice 8 — Défi : une commande au café
+
+## Exercice — Défi : une commande au café
 
 Écris un programme qui réunit les notions de la séance.
 
@@ -121,12 +101,3 @@ Relance ton programme avec d'autres réponses pour vérifier que les phrases s'a
 8. Affiche `Argent restant :`, puis le montant sur la ligne suivante.
 
 Enfin, change uniquement `nombre_boissons` en lui donnant la valeur `2`, puis relance le programme. Vérifie que les deux montants sont recalculés.
-
-## Avant de terminer
-
-- Chaque exercice a été exécuté.
-- Les résultats affichés correspondent à la consigne.
-- Les noms de variables permettent de comprendre ce qu'elles contiennent.
-- Les phrases construites avec `+` contiennent les espaces nécessaires.
-- Les résultats numériques sont affichés sur leurs propres lignes.
-- Tu peux expliquer à ton enseignant le rôle des instructions que tu as écrites.
