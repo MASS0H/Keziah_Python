@@ -1,0 +1,7 @@
+# Pour afficher un texte on utilise :
+print("hello Keziah")
+print(5 + 7)
+
+# print(" ") est une fonction qui permet d'afficher ce qui est entre les parentheses
+
+# visual Studio
